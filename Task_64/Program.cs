@@ -10,9 +10,7 @@ string GetNumbersRec(int num)
     if (num == 0)  return "";
     return   num + " " + GetNumbersRec(num - 1);    
 }
-
 Console.Clear();
-
 System.Console.WriteLine("Введите целое число ");
 int num = Convert.ToInt32(Console.ReadLine());
 System.Console.WriteLine($"Все натуральные числа от {num} до 1:");
